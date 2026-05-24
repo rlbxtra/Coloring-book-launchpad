@@ -273,6 +273,12 @@ function App() {
         <h1 style={{ fontSize: 22, fontWeight: "bold", margin: 0 }}>🎨 Coloring Book Page Planner</h1>
         <p style={{ color: "#888", fontSize: 13, margin: "6px 0 0" }}>Brainstorm themes · Build your prompt · Quality-check before you generate</p>
         <p style={{ color: "#aaa", fontSize: 11, margin: "4px 0 0" }}>© RLB Designs — included with The Coloring Book Launchpad</p>
+        <div style={{ marginTop: 14, background: "#f3ede4", borderRadius: 10, padding: "12px 16px", textAlign: "left", fontSize: 13, lineHeight: 1.7, color: "#555" }}>
+          <strong style={{ color: "#2c2c2c", display: "block", marginBottom: 4 }}>📖 How to use this planner:</strong>
+          <span>① </span><strong>Brainstorm tab</strong> — Pick a theme category and click an idea, or type your own subject in the text box at the bottom.<br />
+          <span>② </span><strong>Build Prompt tab</strong> — Use the dropdown menus to choose your Art Style, Pose, Background, and Mood — or select "Type my own" in any dropdown to write your own. Your finished prompt builds automatically at the bottom. Hit <em>Copy Prompt</em> and paste it into your AI image tool.<br />
+          <span>③ </span><strong>Quality Check tab</strong> — After generating your image, work through the checklist to catch common mistakes before finalizing. Check off every item — when all pass, your page is ready to use!
+        </div>
       </div>
 
       <div style={{ display: "flex", gap: 8, marginBottom: 20 }}>
