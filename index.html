@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coloring Book Page Planner | RLB Designs</title>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, serif;
+      background: #fdfaf6;
+      color: #2c2c2c;
+      min-height: 100vh;
+      padding: 16px;
+    }
+    :root {
+      --text-primary: #2c2c2c;
+      --text-secondary: #888;
+      --bg-primary: #fdfaf6;
+      --bg-secondary: #f3ede4;
+      --border-color: #ccc;
+    }
+    select, input, button { font-family: Georgia, serif; }
+    #root { max-width: 720px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" src="app.js"></script>
+</body>
+</html>
